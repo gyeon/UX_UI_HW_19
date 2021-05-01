@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
 	background-color: #F6F0E6;
 }
 
 img{
-	max-width: 25%;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -32,12 +36,23 @@ ul{
 }
 
 .heroImg{
-	height: 600px;
-	padding: 25px;
+	height: 100%;
 }
 
-.content{
-	width: 500px;
+.content {
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.navbar {
+	background-color: #F6F0E6;
+}
+
+.worksImg {
+	width: 100%;
+}
+
+.nav-link {
+	color: #000000;
 }
