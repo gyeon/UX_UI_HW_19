@@ -1,12 +1,11 @@
 
-$('.nav-item').hover(function () {
-	$(".nav-link").css("background-color", "#845424");
-});
 
+$('.nav-link').mouseover(function() {
+    $(this).css("color", "#845424");
+  })
+  .mouseout(function() {
+  	$(this).css("color", "#000000");
+  });
+ 
 
-
-
-$(".scroll").click(function() {
-	$(this).scroll();
-});
 
