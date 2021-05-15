@@ -25,6 +25,7 @@ img{
 .navigation{
 	width: 73%;
 	padding: 1%;
+	align-content: right;
 }
 
 ul{
@@ -47,6 +48,7 @@ ul{
 
 .navbar {
 	background-color: #F6F0E6;
+	align-content: right;
 }
 
 .worksImg {
@@ -55,9 +57,16 @@ ul{
 
 .nav-link {
 	color: #000000;
+	align-content: right;
 }
 
 nav-item :hover {
 	color: #845424;
+	align-content: right;
 }
+
+.container {
+	align-content: right;
+}
+
 
